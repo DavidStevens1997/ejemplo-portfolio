@@ -30,7 +30,7 @@ html{
 .inicio .contenido-seccion header nav{
     position: fixed;
     margin-left: 60px;
-    background-color: #940253;
+    background-color: #015D8A;
     padding: 15px;
     border-radius: 10px;
     text-align: left;
@@ -52,12 +52,12 @@ html{
     text-shadow: 0 0 35px #fff;
 }
 .inicio .contenido-seccion header .logo .color{
-    color: #940253;
+    color: #015D8A;
     font-family: "Yellowtail";
 }
 .inicio .contenido-seccion header .nav-bar{
     position: fixed;
-    background-color: #940253;
+    background-color: #015D8A;
     font-size: 20px;
     width: 50px;
     height: 50px;
@@ -89,8 +89,8 @@ html{
     display: inline-block;
     text-decoration: none;
     background-color: #000;
-    color: #940253;
-    border: 1px solid #940253;
+    color: #015D8A;
+    border: 1px solid #015D8A;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -100,7 +100,7 @@ html{
 }
 .inicio .contenido-seccion .info .redes a:hover{
     color: #fff;
-    background-color: #940253;
+    background-color: #015D8A;
     box-shadow: 0 0 20px #fff;
 }
 .inicio .contenido-seccion .foto{
@@ -109,7 +109,7 @@ html{
 .inicio .contenido-seccion .foto img{
     max-width: 200px;
     border-radius: 50%;
-    border: 5px solid #940253;
+    border: 5px solid #015D8A;
     position: absolute;
     left: 50%;
     top: -100px;
@@ -123,7 +123,7 @@ html{
 /* SECCION SOBRE MI */
 .sobremi{
     background-color: #e6e6e6;
-    padding: 140px 0 100px 0;
+    padding: 140px 0 27px 0;
     text-align: center;
 }
 .sobremi .contenido-seccion{
@@ -136,7 +136,7 @@ html{
     font-size: 30px;
 }
 .sobremi .contenido-seccion .especial{
-    color: #940253;
+    color: #015D8A;
     font-weight: bold;
     margin-top: 15px;
 }
@@ -147,18 +147,18 @@ html{
 }
 .sobremi .contenido-seccion .fila{
     display: flex;
-    margin-top: 30px;
-    justify-content: space-between;
+    margin: 50px;
+    /* justify-content: space-between; */
 }
 .sobremi .contenido-seccion .fila .col{
-    width: 30%;
+    width: 45%;
 }
 .sobremi .contenido-seccion .fila .col i{
-    color: #940253;
+    color: #015D8A;
     display: inline-block;
     width: 40px;
     height: 40px;
-    border: 2px solid #940253;
+    border: 2px solid #015D8A;
     line-height: 40px;
     border-radius: 50%;
 }
@@ -167,6 +167,45 @@ html{
     font-weight: bold;
     margin: 8px 0;
 }
+
+.columns {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+  
+.column {
+    width: 45%;
+}
+
+ul {
+/* list-style: none; */
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    margin-bottom: 10px;
+    color: #666;
+    justify-content: space-around;
+}
+
+.botonCv {
+    display: inline-block;
+    color: #015D8A;
+    font-weight: bold;
+    border: 2px solid #015D8A;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.botonCv:hover {
+    color: #FFFFFF !important;
+    background-color: #015D8A;
+    cursor: pointer;
+}
+
 /* SECCION HABILIDADES */
 .habilidades{
     padding: 80px 0 100px 0;
@@ -202,7 +241,7 @@ html{
 }
 .habilidades .contenido-seccion .barra{
     display: flex;
-    border: 1px solid #940253;
+    border: 1px solid #015D8A;
     padding: 2px;
     border-radius: 3px;
     margin-right: 10px;
@@ -239,9 +278,9 @@ html{
 }
 .resumen .contenido-seccion .info .col .titulo{
     display: inline-block;
-    color: #940253;
+    color: #015D8A;
     font-weight: bold;
-    border: 2px solid #940253;
+    border: 2px solid #015D8A;
     padding: 10px;
 
 }
@@ -265,7 +304,7 @@ html{
 }
 .resumen .contenido-seccion .info .col table .promedio{
     display: block;
-    color: #940253;
+    color: #015D8A;
     margin-top: 10px;
     font-weight: bold;
 }
@@ -297,7 +336,7 @@ html{
     margin-top: 50px;
 }
 .contacto .contenido-seccion .fila .col h2{
-    color: #940253;
+    color: #015D8A;
 }
 /* SECCION RESPONSIVE */
 @media screen and (max-width:800px){
