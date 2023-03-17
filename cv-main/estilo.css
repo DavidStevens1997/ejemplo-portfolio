@@ -191,6 +191,10 @@ li {
     justify-content: space-around;
 }
 
+.boton {
+    padding: 15px;
+}
+
 .botonCv {
     display: inline-block;
     color: #015D8A;

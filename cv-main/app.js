@@ -34,8 +34,8 @@ let html = document.getElementById("html");
 crearBarra(html);
 let javascript = document.getElementById("javascript");
 crearBarra(javascript);
-let wordpress = document.getElementById("wordpress");
-crearBarra(wordpress);
+let react = document.getElementById("react");
+crearBarra(react);
 let photoshop = document.getElementById("photoshop");
 crearBarra(photoshop);
 let php = document.getElementById("php");
@@ -57,13 +57,13 @@ function efectoHabilidades(){
     if(distancia_skills>=300 && entro==false){
         entro = true;
         const intervalHtml = setInterval(function(){
-            pintarBarra(html, 16, 0, intervalHtml);
+            pintarBarra(html, 15, 0, intervalHtml);
         },100);
         const intervalJavascript = setInterval(function(){
-            pintarBarra(javascript, 11, 1, intervalJavascript);
+            pintarBarra(javascript, 13, 1, intervalJavascript);
         },100);
-        const intervalWordpress = setInterval(function(){
-            pintarBarra(wordpress, 11, 2, intervalWordpress);
+        const intervalReact = setInterval(function(){
+            pintarBarra(react, 12, 2, intervalReact);
         },100);
         const intervalPhotoshop = setInterval(function(){
             pintarBarra(photoshop, 15, 3, intervalPhotoshop);
